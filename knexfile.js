@@ -12,7 +12,7 @@ module.exports = {
       directory: './data/migrations'
     },
     seeds: {
-      directory: './seeds'
+      directory: './data/seeds'
     },
     // add the following
     pool: {

@@ -51,7 +51,7 @@ exports.up = async function(knex) {
         .unsigned()
         .notNullable()
         .references('id')
-        .inTable('recipe')
+        .inTable('recipes')
         .onUpdate('CASCADE')
         .onDelete('CASCADE');
     });
