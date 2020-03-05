@@ -1,10 +1,10 @@
 const express = require('express');
 
-const SchemeRouter = require('./schemes/scheme-router.js');
+const RecipesRouter = require('./recipes/recipesRouter.js');
 
 const server = express();
 
 server.use(express.json());
-server.use('/api/schemes', SchemeRouter);
+server.use('/api/cookbook', RecipesRouter);
 
 module.exports = server;
