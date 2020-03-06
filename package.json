@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Recipe Book",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbastian/node-db4-project.git"
+  },
+  "author": "Andrew Bastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewbastian/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/andrewbastian/node-db4-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.10",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
